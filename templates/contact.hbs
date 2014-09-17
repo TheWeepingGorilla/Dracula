@@ -1,31 +1,18 @@
-<div class='container'>
 
- <nav class='navbar navbar-default' role='navigation'>
-
- <ul class='nav navbar-nav'>
-
- <li>{{#link-to 'posts'}}Posts{{/link-to}}</li>
-
- <li>{{#link-to 'about'}}About{{/link-to}}</li>
-
- <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
-
- <li>{{#link-to 'more'}}More{{/link-to}}</li>
-
- </ul>
-
- </nav>
 
  <h1>Contact</h1>
 
- <p>Want to get in touch?</p>
+   <p>Want to get in touch?</p>
 
- <ul>
+   <ul>
 
- <li>☏ Phone: 1-800-DRACULA</li>
+     <li>{{#link-to 'phone'}}Phone{{/link-to}}</li>
 
- <li>✉ Email: <a href="count@dracula.com">count@dracula.com</a>.</li>
+     <li>{{#link-to 'email'}}Email{{/link-to}}</li>
 
- </ul>
+  </ul>
 
-</div>
+  <div class="col-md-6">
+  {{outlet}}
+  </div>
+
