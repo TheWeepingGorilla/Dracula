@@ -10,3 +10,6 @@ Blogger.NewPostController = Ember.Controller.extend({
     }
   }
 });
+
+
+

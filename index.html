@@ -3,7 +3,9 @@
 
   <head>
     <title>Dracula's blog</title>
+
     <link rel="stylesheet" href="css/bootstrap.css">
+
     <script src="libs/jquery-1.11.1.js"></script>
     <script src="libs/handlebars-v1.3.0.js"></script>
     <script src="libs/ember.js"></script>
@@ -13,9 +15,10 @@
 
     <script src="blogger.js"></script>
     <script src="router.js"></script>
+    <script src="store.js"></script>
 
     <script>EmberHandlebarsLoader.loadTemplates(
-      ['application', 'posts', 'post', 'new-post', 'recent-comments', 'about', 'contact', 'phone', 'email', 'more']
+      ['application', 'posts', 'post', 'new-post', 'recent-comments', 'new-comment', 'about', 'contact', 'phone', 'email', 'more']
     );
     </script>
 
@@ -24,8 +27,7 @@
     <script src="controllers/post.js"></script>
     <script src="controllers/posts.js"></script>
     <script src="controllers/new-post.js"></script>
-
-    <script src="store.js"></script>
+    <script src="controllers/new-comment.js"></script>
 
     <script src="routes/posts.js"></script>
     <script src="routes/recent-comments.js"></script>
@@ -33,11 +35,9 @@
 
     <script src="models/post.js"></script>
     <script src="models/comment.js"></script>
-
   </head>
 
   <body>
-
   </body>
 
 </html>
